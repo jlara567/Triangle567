@@ -4,4 +4,3 @@
 [![codecov](https://codecov.io/gh/jlara567/Triangle567/branch/codecoverage/graph/badge.svg)](https://codecov.io/gh/jlara567/Triangle567)
 
 
-Please run the following: coverage report run --branch testtriangle.py

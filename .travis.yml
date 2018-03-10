@@ -9,9 +9,8 @@ install:
 
 script:
   - python -m unittest TestTriangle
-  - coverage run TestTriangle.py
-  - coverage xml -i TestTriangle.py
-  - coverage report TestTriangle.py
+  - coverage xml
+  - coverage report -m
 
 
 after_success:
