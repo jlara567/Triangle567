@@ -6,10 +6,8 @@ python:
 
 install:
   - pip install codecov
-  - pip install coverage
 
 script:
- - python -m unittest TestTriangle
  - coverage run TestTriangle.py
 
 
