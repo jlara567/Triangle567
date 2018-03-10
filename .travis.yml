@@ -1,6 +1,6 @@
 language: python
 python:
- - "3.6"
+ - "2.7"
 
 # command to run tests
 
@@ -10,7 +10,7 @@ install:
 script:
   - python -m unittest TestTriangle
   - coverage xml -i
-  - coverage report TestTriangle.py
+  - coverage report
 
 
 after_success:
