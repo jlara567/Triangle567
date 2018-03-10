@@ -6,7 +6,7 @@ python:
 script:
  - python -m unittest TestTriangle
  - pip install coverage
- - coverage run TestTriangle
+ - coverage run TestTriangle.py
 
 
 after_success:
