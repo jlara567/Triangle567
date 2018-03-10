@@ -1,7 +1,6 @@
 language: python
 python:
  - "3.6"
- - "pypi"
 
 # command to run tests
 
