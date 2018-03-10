@@ -9,7 +9,7 @@ install:
   - pip install codecov
 
 script:
-  - python unittest -m TestTriangle
+  - python -m unittest TestTriangle
   - coverage report TestTriangle.py
 
 
