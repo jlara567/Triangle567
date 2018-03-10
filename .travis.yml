@@ -1,6 +1,6 @@
 language: python
 python:
- - "2.7"
+ - "3.6"
 
 # command to run tests
 
@@ -9,9 +9,11 @@ install:
 
 script:
   - python -m unittest TestTriangle
+  - coverage run TestTriangle.py
   - coverage xml -i TestTriangle.py
   - coverage report TestTriangle.py
 
 
 after_success:
+  - codecov
   - bash <(curl -s https://codecov.io/bash)
