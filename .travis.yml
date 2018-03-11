@@ -9,12 +9,14 @@ script:
 dist: trusty
 sudo: required
 
+
 addons:
   sonarcloud:
   organization: "teamX-ssw567-triangle567"
   token: 7b364e5939f067309019db5fd69fc5cf58882906
-  branches:
-    - sonarcloud
+  sonarcloud:
+    branches:
+      - sonarcloud
 
 # add the sonar-scanner command after all the other commands that you already have
 script:
