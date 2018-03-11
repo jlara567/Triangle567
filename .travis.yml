@@ -9,11 +9,10 @@ script:
 dist: trusty
 sudo: required
 
-
 addons:
   sonarcloud:
   organization: "team-2-ssw567-triangle567"
-  token: 7b364e5939f067309019db5fd69fc5cf58882906
+  token: 1ab18c313f2ec46a484297b654620cff27557ffd
   sonarcloud:
     branches:
       - sonarcloud
