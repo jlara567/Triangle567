@@ -11,11 +11,11 @@ sudo: required
 
 addons:
   sonarcloud:
-  organization: "team-2-ssw567-triangle567"
-  token: 1ab18c313f2ec46a484297b654620cff27557ffd
-  sonarcloud:
     branches:
       - sonarcloud
+  organization: "team-2-ssw567-triangle567"
+  token: 1ab18c313f2ec46a484297b654620cff27557ffd
+
 
 # add the sonar-scanner command after all the other commands that you already have
 script:
