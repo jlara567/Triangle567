@@ -6,8 +6,6 @@ python:
 script:
  - python -m unittest TestTriangle
 
-
-
 dist: trusty
 sudo: required
 
